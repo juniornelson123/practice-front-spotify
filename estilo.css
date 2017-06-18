@@ -5,6 +5,7 @@ body{
 	background: url('imagens/capa.png'), url('imagens/ruido.png'),linear-gradient(50deg, #ff4169,#7c26f8);
 	background-attachment: fixed;
 	font-family: Helvetica,Arial,sans-serif;
+	overflow-x: hidden;
 }
 
 .navbar-transparent{
@@ -158,4 +159,10 @@ p {
 
 #recursos h3 {
 	color: #9bf0e1;
+}
+
+.iphones{
+	transform: rotate(30deg);
+	padding: 20px;
+
 }
