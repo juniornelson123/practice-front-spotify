@@ -1,0 +1,157 @@
+html, body, .capa{
+	height: 100%;
+}
+body{
+	background: url('imagens/capa.png'), url('imagens/ruido.png'),linear-gradient(50deg, #ff4169,#7c26f8);
+	background-attachment: fixed;
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+.navbar-transparent{
+	padding: 15px 0;
+	background: rgba(0,0,0,0.6);
+	border: none;	
+}
+
+.navbar-brand {
+	display: flex;
+	align-items: center;
+}
+
+.img-logo {
+	display: block;
+	height: 40px;
+	width: 132px;
+	background: url('imagens/spotify.svg') no-repeat;
+	background-size: contain;
+
+}
+
+.divisor {
+	display: flex;
+	width: 1px;
+	height: 15px;
+	background-color: #ccc;
+	margin-top: 18px;
+
+}	
+
+.navbar-nav.navbar-right li a {
+
+}
+
+.navbar-nav.navbar-right li a.login-title{
+	color: #ccc;
+}
+
+.navbar-nav.navbar-right li a {
+	color: #fff;
+	font-weight: bold;
+}
+
+.navbar-nav.navbar-right li a:hover{
+	color:#1db954;
+}
+
+
+.capa{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.texto-capa {
+	text-align: center;
+	color: white;
+
+}
+.texto-capa h1{
+
+	margin-bottom: 50px;
+}
+
+.btn-custom{
+	border: 1px solid white;
+	color: white;
+	border-radius: 100px;
+	padding: 5px 30px;
+	font-size: 14px;
+	font-weight: 900;
+	text-transform: uppercase;
+	transition: background: 0.4s, color: 0.2s;
+}
+
+.btn-custom:hover{
+	background-color: white;
+	color: black;
+}
+
+
+
+.btn-blue{
+	background-color: #7c25f8;
+	color: white;
+	text-transform: uppercase;
+	border-radius: 100px;
+	padding: 5px 30px;
+	font-size: 14px;
+	font-weight: 900;
+	margin: 0px 15px;
+	transition: background: 0.4s, color: 0.2s;
+}
+
+.btn-blue:hover{
+	background-color: #7207e3;
+	color: white;
+	border-radius: 100px;
+	padding: 5px 30px;
+	font-size: 14px;
+	font-weight: 900;
+}
+
+
+#servicos{
+	background-color: white;
+	padding: 10px 0px;
+}
+
+#servicos .detail-services {
+	padding: 5px;
+}
+
+#servicos .album {
+	padding: 10px 0 10px 0; 
+}
+
+h1 {
+	font-size: 80px;
+	font-weight: bold;
+	letter-spacing: -0.05em;
+}
+
+h2 {
+
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: -0.05em;
+	color: white;
+}
+
+h3 {
+
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: -0.05em;
+}
+
+p {
+	color: white;
+}
+
+#servicos h2, #servicos h3{
+	color: #7207e3;
+}
+
+#recursos h3 {
+	color: #9bf0e1;
+}
