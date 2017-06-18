@@ -162,6 +162,8 @@ p {
 }
 
 .iphones{
+	-webkit-transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
 	transform: rotate(30deg);
 	padding: 20px;
 
